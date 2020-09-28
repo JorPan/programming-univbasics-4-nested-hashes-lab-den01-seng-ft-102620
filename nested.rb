@@ -80,16 +80,17 @@ def adding_matz
         :known_for => "Unix",
         :languages => ["C"]
       },
-    #  :yukihiro_matsumoto => {
-     #   :known_for => "Ruby",
-      #  :languages => ["LISP", "C"]
-    #  }
+      :yukihiro_matsumoto => {
+        :known_for => "Ruby",
+        :languages => ["LISP", "C"]
+      }
  		}
- 		programmer_hash[:yukihiro_matsumoto] = {},
-programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby",
-programmer_hash[:yukihiro_matsumoto][:languages][0] = "LISP",
-programmer_hash[:yukihiro_matsumoto][:languages][1] = "C",
-programmer_hash
+
+# programmer_hash[:yukihiro_matsumoto] = {},
+# programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby",
+# programmer_hash[:yukihiro_matsumoto][:languages][0] = "LISP",
+# programmer_hash[:yukihiro_matsumoto][:languages][1] = "C",
+# programmer_hash
 end
 
 def changing_alan
